@@ -36,7 +36,6 @@ public class TaskTwo {
         if (i < 0 || i >= image.length || j < 0 || j >= image[0].length || image[i][j] != oldColor) {
             return;
         }
-
         image[i][j] = color;
         recColorFunc(image, i - 1, j, oldColor, color);
         recColorFunc(image, i + 1, j, oldColor, color);
