@@ -37,5 +37,6 @@ public class TaskOne {
                 + recursiveFunction(grid, i, j + 1)
                 + recursiveFunction(grid, i, j - 1)
                 + 1;
+
     }
 }
